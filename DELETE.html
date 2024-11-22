@@ -7,7 +7,6 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             background-color: #f8f9fa;
             margin: 0;
             padding: 20px;
@@ -19,22 +18,29 @@
         }
 
         .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
             max-width: 600px;
             text-align: center;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            font-size: 24px;
             color: #007bff;
+            font-size: 24px;
         }
 
         p {
             font-size: 16px;
             margin-bottom: 20px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+            text-align: left;
         }
 
         button {
@@ -65,12 +71,12 @@
     <div class="container">
         <h1>Delete Your Data</h1>
         <p>If you wish to delete your data from our system, please follow these steps:</p>
-        <ol style="text-align: left;">
+        <ol>
             <li>Go to your <a href="https://www.facebook.com/settings?tab=applications" target="_blank">Facebook Settings</a>.</li>
             <li>Find and select the <strong>OS-ADAM</strong> app from the list of connected apps.</li>
             <li>Remove the app from your account to delete all data we have associated with you.</li>
         </ol>
-        <p>Alternatively, you can contact us for further assistance:</p>
+        <p>If you need further assistance, feel free to contact us:</p>
         <button onclick="window.location.href='mailto:support@os-adam.com?subject=Delete%20My%20Data'">Contact Us</button>
     </div>
 </body>
